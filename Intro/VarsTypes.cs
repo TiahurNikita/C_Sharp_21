@@ -41,12 +41,29 @@ namespace C_Sharp_21.Intro         // namespace може вкладатись ч
             // Reference Types реалізуються класами (class)
             // для цих типів потрібне створення об'єкту (частіше за все оператором new)
             // Без об'єкта змінні цих типів мають значення null
-            object obj3 = default;
-            object obj4 = null;
-            object obj5;
+            
             // Тим не менш, обидві групи типів походять від єдиного нащадка Object,
             // що призводять до того, що вони мають певний перелік спільних методів
             // зокрема, ToString(), який відповідає за рядкове подання об'єкту
+
+            double d = Convert.ToDouble(x);
+            string str = "Привіт ";
+            byte b = 10;
+            short s = 100;
+            long lng;
+            char c = 'a';
+
+            Console.Write("Ім'я: ");
+            String line = Console.ReadLine();
+            Console.WriteLine(str + line);
+
+            Console.Write("Вік: ");
+            line = Console.ReadLine();
+            b = Convert.ToByte(line);
+            Console.WriteLine("Ваш вік " + b);
+            if (b <= 10) Console.WriteLine("Child");
+            else if (b <= 19) Console.WriteLine("Teenager");
+            else Console.WriteLine("Adult");
         }
     }
 }

@@ -8,9 +8,20 @@ namespace C_Sharp_21 // простори імен групують класи
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
-            Console.WriteLine("Платформа Microsoft .NET та мова програмування C#");
-            new Intro.VarsTypes().Run(); // Видаляти об'єкти немає потреби
-            // За це відповідає окремий модуль платформи - GC Garbage Collector
+            //Console.WriteLine("Платформа Microsoft .NET та мова програмування C#");
+            ////new Intro.VarsTypes().Run(); // Видаляти об'єкти немає потреби
+            ////new Intro.Arrays().Run();
+            //new Intro.Strings().Run();
+            //// За це відповідає окремий модуль платформи - GC Garbage Collector
+            //Homework
+            //new HW.HW_22_11().Task1();
+            //new HW.HW_22_11().Task2();
+            //new HW.HW_22_11().Task3_8();
+            //new HW.HW_22_11().Task4();
+            //new HW.HW_22_11().Task5();
+            //new HW.HW_22_11().Task6();
+            new HW.HW_22_11().Task7();
+            //new HW.HW_22_11().Task9();
         }
     }
 }
